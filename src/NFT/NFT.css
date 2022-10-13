@@ -1,0 +1,128 @@
+html {
+    @apply
+    bg-[#0c1a29]
+    font-outfit
+}
+.main-base {
+    @apply
+    flex
+    flex-col
+    p-[30px]
+    md:w-[400px]
+    w-[320px]
+    items-center
+    bg-[#111f42]
+    rounded-xl
+    mx-auto
+    mt-[100px]
+}
+
+image {
+    @apply
+    w-full
+}
+
+.image img{
+    @apply
+    rounded-xl
+    z-10
+    relative
+}
+
+.eye {
+    @apply
+    z-20
+    w-[260px]
+    md:w-[340px]
+    h-[260px]
+    md:h-[340px]
+    absolute
+    opacity-0
+    rounded-xl
+    text-white
+    bg-[#00FFF7]
+}
+
+.eye:hover {
+    @apply
+    opacity-50
+}
+
+.title {
+    @apply
+    w-full
+    text-[27px]
+    font-bold
+    mt-[20px]
+    text-white
+    text-left
+}
+
+.title :hover {
+    @apply
+    text-[#00FFF7]
+}
+
+.text {
+    @apply
+    text-white
+    mt-[20px]
+    text-[18px]
+    opacity-70
+}
+
+.items {
+    @apply
+    mt-[20px]
+    w-full
+    flex
+    justify-between
+    border-b-2  
+    border-gray-50
+    border-opacity-10
+    pb-[20px]
+}
+
+.prize {
+    @apply
+    flex 
+    flex-row 
+    text-[#00FFF7]
+}
+
+.day {
+    @apply
+    flex 
+    flex-row 
+    justify-center
+    opacity-60
+    text-white
+}
+
+.profile {
+    @apply
+    w-full
+    text-white
+    flex
+    flex-row
+    mt-[30px]
+}
+
+.profile img {
+    @apply
+    border-2
+    border-white
+    rounded-full
+    w-[35px]
+    mr-[20px]
+}
+
+.profile p {
+    @apply
+    opacity-40
+}
+
+.profile a:hover {
+    @apply
+    text-[#00FFF7]
+}
